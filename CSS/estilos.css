@@ -1,0 +1,123 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body,h1{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background: rgba(9, 13, 226, 0.534);
+    text-align: left;
+    color: white;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+.logo{
+    text-transform: uppercase;
+}
+.navbar{
+    background: rgb(39, 39, 173);
+    text-align: right;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+    .navbar ul li{
+        display: inline;
+    }
+        .navbar ul li a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .navbar ul li a:hover{
+            border: 2px solid white;
+            border-radius: 8px;
+        }
+        .navbar ul li a:active{
+            background-color: white;
+            color: rgb(38, 38, 141);
+        }
+.principal{
+    background: rgb(10, 11, 100);
+    padding: 15px;
+    width: 70%;
+    float: left;
+}
+.destacado{
+    padding: 15px;
+    background: white;
+    margin-top: 10px;
+}
+.destacado img{
+    width: 100%;
+}
+.destacado h2{
+    text-align: center;
+    font-size: 32px;
+    transform: translateY(-60px);
+    margin: 0;
+    color: black;
+    text-decoration: underline;
+}
+.simple{
+    padding: 15px;
+    background: white;
+    width: 50%;
+    float: left;
+}
+figure{
+    margin: 0;
+}
+.simple figure img{
+    width: 100%;
+}
+.breadcrumb{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.424);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.noticia{
+    background-color: rgba(245, 245, 245, 0.287);
+    padding: 10px;
+}
+.noticia figure img{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.sidebar{
+    width: 30%;
+    background: rgb(47, 28, 117);
+    color: whitesmoke;
+    float: right;
+}
+.sidebar img{
+    width: 100%;
+}
+.sidebar h3{
+    transform: translateY(-70px);
+}
+.footer{
+    clear: both;
+    background: rgba(10, 10, 146, 0.664);
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.limpar{
+    clear: both;
+}
